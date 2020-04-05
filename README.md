@@ -19,7 +19,7 @@ python ForcePowers_start.py
 
 Start simulation in RobotStudio, after you configured IP and PORT correctly in RAPID and config.py
 
-Launch Tracking python ForcePowers_start.py
+Launch tracking  with command python ForcePowers_start.py
 
 It should connect and print the Robot position in terminal
 
@@ -27,31 +27,31 @@ Wait for camera to start
 
 Position your object in the green squares so it can capture its color then press z !
 
-tracking will start robot will move 
+Tracking will start robot will move 
 
-change configuration(xyz,xy) by pressing c
+Change configuration(xyz,xy) by pressing c
 
-pause by pressing p
+Pause by pressing p
 
-exit with esc
+Exit with esc
 
-recapture color by pressing z
+Recapture color by pressing z
 
-if error occurs check terminal and press any key
+If error occurs check terminal and press any key
 
-edit config.py if necessary.
+Edit config.py if necessary.
 
 # Tips
-have good lighting
+Have good lighting
 
-use object with a unique color 
+Use object with a unique color 
 
-have all windows open 
+Have all windows open for a better view 
 
 # Troubleshooting
-if u want to use commands u have to click the Camera live feed window
+If u want to use commands u have to click the Camera live feed window
 
-for any questions write to me at lukadragarbusiness@gmail.com I will be happy to help
+For any questions write to me at lukadragarbusiness@gmail.com I will be happy to help
 
 
 
