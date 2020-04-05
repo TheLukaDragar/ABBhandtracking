@@ -1,7 +1,7 @@
 # ABBhandtracking
 control ABB robot using camera object detection and packets
 
-#Instalation
+# Instalation
 Install python3
 launch RobotStudio HandTracking.rspag
 Edit RAPID if needed IP, PORT
@@ -11,7 +11,7 @@ pip install -r requirements.txt
 cd ABB Robot movement control using camera object tracking and packets/
 python ForcePowers_start.py
 
-#How To Use
+# How To Use
 
 Start simulation in RobotStudio, after you configured IP and PORT correctly in RAPID and config.py
 Launch Tracking python ForcePowers_start.py
@@ -29,12 +29,12 @@ if error occurs check terminal and press any key
 
 edit config.py if necessary.
 
-#Tips
+# Tips
 have good lighting
 use object with a unique color 
 have all windows open 
 
-#Troubleshooting
+# Troubleshooting
 if u want to use commands u have to click the Camera live feed window
 for any questions write to me at lukadragarbusiness@gmail.com I will be happy to help
 
