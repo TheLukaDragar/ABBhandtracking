@@ -8,18 +8,14 @@ launch RobotStudio HandTracking.rspag
 
 Edit RAPID if needed IP, PORT
 
-
 pip install -r requirements.txt
 
-cd ABB Robot movement control using camera object tracking and packets/
-
-python ForcePowers_start.py
 
 # How To Use
 
 Start simulation in RobotStudio, after you configured IP and PORT correctly in RAPID and config.py
 
-Launch tracking  with command python ForcePowers_start.py
+Launch tracking ForcePowers_start.py --python ForcePowers_start.py
 
 It should connect and print the Robot position in terminal
 
