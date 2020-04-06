@@ -391,7 +391,8 @@ def main():
     mythread()
 
     #capture = cv2.VideoCapture("http://192.168.64.102:8080/video")
-    capture = cv2.VideoCapture(0)
+
+    capture = cv2.VideoCapture(config.cameratouse)
     print("press z to start tracking")
 
     while capture.isOpened():
