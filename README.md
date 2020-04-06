@@ -31,7 +31,11 @@ Pause by pressing p
 
 Exit with esc
 
-Recapture color by pressing z
+Recapture color by pressing r and then z when ready
+
+Pause with p
+
+Error conformation e
 
 If error occurs check terminal and press any key
 
