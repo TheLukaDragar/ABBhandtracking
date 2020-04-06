@@ -6,7 +6,7 @@ Install python3
 
 launch RobotStudio HandTracking.rspag
 
-Edit RAPID if needed IP, PORT
+Edit RAPID if needed IP, PORT default set to localhost
 
 pip install -r requirements.txt
 
@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 Start simulation in RobotStudio, after you configured IP and PORT correctly in RAPID and config.py
 
-Launch tracking ForcePowers_start.py --python ForcePowers_start.py
+Launch tracking ForcePowers_start.py using command    python ForcePowers_start.py
 
 It should connect and print the Robot position in terminal
 
@@ -31,13 +31,11 @@ Pause by pressing p
 
 Exit with esc
 
-Recapture color by pressing r and then z when ready
+Recapture color by pressing r and then z when ready 
 
-Pause with p
+Error conformation press  e
 
-Error conformation e
-
-If error occurs check terminal and press any key
+If connection error occurs 3 times check terminal and press any key to retry
 
 Edit config.py if necessary.
 
