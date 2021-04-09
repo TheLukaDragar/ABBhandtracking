@@ -90,7 +90,7 @@ def rescale_frame(frame, wpercent=config.livefeedwindowscalex, hpercent=config.l
 def contours(hist_mask_image):
     gray_hist_mask_image = cv2.cvtColor(hist_mask_image, cv2.COLOR_BGR2GRAY)
     ret, thresh = cv2.threshold(gray_hist_mask_image, 0, 255, 0)
-    _, cont, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    cont, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     return cont
 
 
@@ -458,7 +458,8 @@ def main():
             try:
                 manage_image_opr(frame, hand_hist)
                 runthread= True
-            except:
+            except Exception as e:
+                print(e)
                 runthread = False
                 print("out of frame")
                 outofframe=True
